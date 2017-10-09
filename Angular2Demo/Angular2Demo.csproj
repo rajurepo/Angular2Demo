@@ -105,6 +105,7 @@
     <Content Include="bs-config.json" />
     <Content Include="package.json" />
     <Content Include="src\app\app.component.html" />
+    <Content Include="src\app\employee\employee.component.css" />
     <Content Include="src\app\employee\employee.component.html" />
     <Content Include="src\tsconfig.json" />
     <Content Include="tslint.json" />
