@@ -107,8 +107,13 @@
     <Content Include="src\app\app.component.html" />
     <Content Include="src\app\employee\employee.component.css" />
     <Content Include="src\app\employee\employee.component.html" />
+    <Content Include="src\app\employee\employeeCount.component.css" />
+    <Content Include="src\app\employee\employeeCount.component.html" />
+    <Content Include="src\app\employee\employeeList.component.css" />
+    <Content Include="src\app\employee\employeeList.component.html" />
     <Content Include="src\tsconfig.json" />
     <Content Include="tslint.json" />
+    <None Include="Properties\PublishProfiles\Angular2Demo.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -132,7 +137,13 @@
     <TypeScriptCompile Include="src\app\app.component.spec.ts" />
     <TypeScriptCompile Include="src\app\app.component.ts" />
     <TypeScriptCompile Include="src\app\app.module.ts" />
+    <TypeScriptCompile Include="src\app\employee\employee.service.ts" />
+    <TypeScriptCompile Include="src\app\employee\employee.ts" />
     <TypeScriptCompile Include="src\app\employee\employee.component.ts" />
+    <TypeScriptCompile Include="src\app\employee\employeeCount.component.ts" />
+    <TypeScriptCompile Include="src\app\employee\employeeList.component.ts" />
+    <TypeScriptCompile Include="src\app\employee\employeeTitle.pipe.ts" />
+    <TypeScriptCompile Include="src\app\others\simple.component.ts" />
     <TypeScriptCompile Include="src\main.ts" />
   </ItemGroup>
   <ItemGroup>
@@ -154,7 +165,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>26919</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:2300/</IISUrl>
+          <IISUrl>http://localhost/Angular2demo</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -10,12 +10,16 @@ var core_1 = require("@angular/core");
 var AppComponent = (function () {
     function AppComponent() {
         this.pageHeader = 'Employee Details';
+        //imagePath: string = 'http://www.pragimtech.com/Images/Logo.JPG';
+        //name: string = 'Tom';
+        //onClick(): void {
+        //    console.log('Button Clicked');  
+        //userText: string = 'Pragim';
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            //template: `<h1>Hello {{name}}</h1>`,
-            templateUrl: '/src/app/app.component.html'
+            template: "<list-emp></list-emp>",
         })
     ], AppComponent);
     return AppComponent;

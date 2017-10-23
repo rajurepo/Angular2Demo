@@ -11,11 +11,19 @@ var EmployeeComponent = (function () {
     function EmployeeComponent() {
         this.firstName = 'John';
         this.lastName = 'Doe';
+        this.showDetails = false;
     }
+    EmployeeComponent.prototype.getEmail = function () {
+        return 'test@test.com';
+    };
+    EmployeeComponent.prototype.toggleDetails = function () {
+        this.showDetails = !this.showDetails;
+    };
     EmployeeComponent = __decorate([
         core_1.Component({
             selector: 'my-emp',
-            templateUrl: 'app/employee/employee.component.html'
+            templateUrl: 'app/employee/employee.component.html',
+            styleUrls: ['app/employee/employee.component.css']
         })
     ], EmployeeComponent);
     return EmployeeComponent;

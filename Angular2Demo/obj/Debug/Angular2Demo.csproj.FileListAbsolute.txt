@@ -28,6 +28,6 @@ E:\Workspace\RajaDev\Dev\MyDev\Angular2Demo\Angular2Demo\bin\Microsoft.AI.Web.xm
 E:\Workspace\RajaDev\Dev\MyDev\Angular2Demo\Angular2Demo\bin\Microsoft.AI.WindowsServer.xml
 E:\Workspace\RajaDev\Dev\MyDev\Angular2Demo\Angular2Demo\bin\Microsoft.ApplicationInsights.xml
 E:\Workspace\RajaDev\Dev\MyDev\Angular2Demo\Angular2Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Workspace\RajaDev\Dev\MyDev\Angular2Demo\Angular2Demo\obj\Debug\Angular2Demo.csprojResolveAssemblyReference.cache
 E:\Workspace\RajaDev\Dev\MyDev\Angular2Demo\Angular2Demo\obj\Debug\Angular2Demo.dll
 E:\Workspace\RajaDev\Dev\MyDev\Angular2Demo\Angular2Demo\obj\Debug\Angular2Demo.pdb
-E:\Workspace\RajaDev\Dev\MyDev\Angular2Demo\Angular2Demo\obj\Debug\Angular2Demo.csprojResolveAssemblyReference.cache
